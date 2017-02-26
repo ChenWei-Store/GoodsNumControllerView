@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GoodsNumControllerView">
+        <attr name="textSize" format="dimension|reference" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="leftCircleBackgroundColor" format="color|reference" />
+        <attr name="rightCircleBackgroundColor" format="color|reference" />
+        <attr name="leftCircleTextColor" format="color|reference" />
+        <attr name="rightCircleTextColor" format="color|reference" />
+        <attr name="leftCircleStrokeColor" format="color|reference"  />
+        <attr name="rightCircleStrokeColor" format="color|reference" />
+        <attr name="subtractionIsLeft" format="boolean" />
+        <attr name="maxNum" format="reference|integer" />
+        <attr name="minNum" format="reference|integer" />
+        <attr name="initialValue" format="reference|integer" />
+    </declare-styleable>
+
+
+</resources>
