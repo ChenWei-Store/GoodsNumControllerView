@@ -20,8 +20,8 @@ Android中一个用于控制商品数量增减的View
  minNum| int | 该商品数量的最小值 
  initialValue | int,interger.xml的值 | 商品数量的初始值  
  
-##注1：以上表格中的所有属性都可以引用相应属性的xml文件中的值    
-##注2:layout_width和layout_height 设置为wrap_content时，宽和高分别为260px和80px,所以建议根据自己的情况设置宽高 
+注1：以上表格中的所有属性都可以引用相应属性的xml文件中的值    
+注2:layout_width和layout_height 设置为wrap_content时，宽和高分别为260px和80px,所以建议根据自己的情况设置宽高 
 
 ####demo图片
 
