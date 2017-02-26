@@ -114,6 +114,10 @@ public class GoodsNumControllerView extends View{
         }
     }
 
+    public void setInitValue(int value){
+        numValue = value;
+        invalidate();
+    }
 
     private void initPaint(){
         leftCirclePaint = new Paint();
@@ -165,8 +169,6 @@ public class GoodsNumControllerView extends View{
         if(heightMode == MeasureSpec.AT_MOST){
             height = 80;
         }
-        Log.d(TAG, "width:" + width);
-        Log.d(TAG, "height: " + height);
         setMeasuredDimension(width, height);
     }
 
